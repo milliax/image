@@ -1,0 +1,29 @@
+{
+  "name": "image",
+  "version": "0.0.1",
+  "description": "image update space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milliax/image.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milliax/image/issues"
+  },
+  "homepage": "https://github.com/milliax/image#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
